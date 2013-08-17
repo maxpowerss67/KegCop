@@ -1,5 +1,22 @@
 /* CSS Document */
+body
+{
+	background-image:url('../media/pics/beer_bg.jpg');
+}
+
+
 main
 {
 background-image:url('beer_bg.jpg');	
+}
+
+h1
+{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+h2
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
 }

@@ -15,21 +15,25 @@ dark brown 64 50 7
 medium yello 229 179 27
 */
 
-
-
-body
-{
+body {
 	background-image:url('../media/pics/beer_bg08.jpg');
 }
-
+a,
+a:hover {
+	text-decoration:none;
+}
 ul,
 ol {
 	list-style:none;
 }
 
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
 .wrapper {
-	max-wdith:1280px;
-	width:95%
+	max-width:1280px;
+	width:95%;
 	margin:0 auto;
 	position:relative;
 }
@@ -47,21 +51,19 @@ ol {
 	margin:0 0 15px;
 }
 
-h1
-{
+h1 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
 	color:rgb(64,50,7);
 }
 
-h2
-{
+h2 {
 	font-family: 'Roboto Slab', serif;
 	color:rgb(64,50,7);
 	text-align:center;
 }
-footer
-{
+
+footer {
 	margin: auto;
 	width: 960px;
 	text-align:center;
@@ -104,17 +106,15 @@ dark brown 64 50 7
 medium yello 229 179 27
 */
 
-	
-/* Navigation - nav menu */
-.nav
-{
+/* Navigation styling */
+.nav {
 	position:relative;
 	display:inline-block;
 	font-size:14px;
 	font-weight:900;
-	font-family: 'Roboto Slab', serif;
 }
 .nav-list {
+	
 }
 .nav-item {
 	float:left;
@@ -128,7 +128,7 @@ medium yello 229 179 27
 	background:rgb(64,50,7);
 }
 .nav-item:first-child a {
-	border-radius: 5px 0 0 5px;
+	border-radius:5px 0 0 5px;
 }
 .nav-item:last-child a {
 	border-radius:0 5px 5px 0;
@@ -136,13 +136,14 @@ medium yello 229 179 27
 .nav-item a:hover {
 	background:rgb(127,99,15);
 }
-nav-mobile {
-	display:none; /* hide from browsers that don't support media queries */
+/* Mobile Navigation */
+.nav-mobile {
+	display:none; /* Hide from browsers that don't support media queries */
 	cursor:pointer;
 	position:absolute;
 	top:0;
 	right:0;
-	background:#34495E url(../media/pics/nav.svg) no-repeat center center;
+	background:rgb(64,50,7) url(../media/pics/nav.svg) no-repeat center center;
 	height:40px;
 	width:40px;
 	border-radius:5px;
@@ -150,46 +151,44 @@ nav-mobile {
 	-moz-border-radius:5px;
 }
 
-
 /*------------------------------------*\
     Media Queries
 \*------------------------------------*/
 
-/* Navigation - tablet and below */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-.nav-mobile {
-	display:block;
+	.nav-mobile {
+		display:block;
+	}
+	.nav {
+		width:100%;
+		padding:40px 0 0;
+		
+	}
+	.nav-list {
+		display:none;
+		
+	}
+	.nav-item {
+		width:100%;
+		float:none;
+		
+	}
+	.nav-item a {
+		background:rgb(60,50,7);
+		padding:10px;
+	}
+	.nav-item:first-child a {
+		border-radius:5px 0 0;
+	}
+	.nav-item:last-child a {
+		border-radius:0 0 5px 5px;
+	}
+	.nav-active {
+		display:block;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
 }
-
-.nav {
-	width:100%
-	padding:40px 0 0;
-}
-.nav-list {
-	display:none;
-}
-.nav-item {
-	width:100%
-	float:none;
-}
-.nav-item a {
-	background:#34495E;
-	padding:10px;
-}
-.nav-item:first-child a {
-	border-radius:5px 0 0;
-}
-.nav-item:last-child a {
-	border-radius:0 0 5px 5px;
-}
-.nav-active {
-	display:block;
-}
-.nav-mobile-open {
-	border-radius:5px 5px 0 0;
-	-webkit-border-radius:5px 5px 0 0;
-	-moz-border-radius:5px 5px 0 0;
-}
-}
-
-.

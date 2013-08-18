@@ -1,20 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-   <title>Homepage for KegCop</title>
+   <meta name="author" content="@chrisrjones">
+   <title>KegCop</title>
    <link href="css/style.css" media="screen" rel="Stylesheet" type="text/css"/>
+   <!-- favicon -->
+   <link rel="shortcut icon" href="media/pics/favicon.ico" />
+   
+   <!-- google analytics -->
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43223650-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+   
    </head>
 <body>
-	<header>
-   		<h1>KegCop</h1>
-   	</header>
-    <div role="main">
-    <!-- Page content -->
-    <h2>blah</h2>
+	<div class="header">
+   	</div>
+   
+   <div class="wrapper">
+   	<div class="main">
+    
+    <!-- Nav menu -->
+    <nav class="nav">
+    	<ul class="nav-list">
+        	<li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">word3</a></li>
+            <li class="nav-item"><a href="#">word4</a></li>
+            <li class="nav-item"><a href="#">word5</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+       </ul>
+    </nav>
+    <!-- /Nav -->
+    
+    <div class="content">
+    	<p class="content-text">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra interdum semper. 
+			Ut blandit adipiscing tempor. Etiam scelerisque, felis dignissim rutrum tempor, neque risus 
+			sagittis mi, ac aliquam est massa eget lectus. Class aptent taciti sociosqu ad litora torquent 
+			per conubia nostra, per inceptos himenaeos. Ut pretium adipiscing ipsum, id iaculis quam mattis 
+			et. Cras mollis eleifend tortor, ut venenatis turpis pulvinar id. In hac habitasse platea 
+			dictumst. Pellentesque feugiat mi sit amet ligula convallis rhoncus fermentum sem aliquam. 
+			Vivamus egestas justo ac nisl facilisis sed aliquam mi ultrices. Suspendisse potenti. Sed 
+			elementum blandit nisl eu tempus.
+    	</p>
+    </div> <!-- content -->
+  </div> <!-- main -->
+ </div> <!-- wrapper -->
+    <!-- JS for Nav menu -->  
+    <script>
+	function () {
+        
+    	// Create mobile element
+    	var mobile = document.createElement('div');
+    	mobile.className = 'nav-mobile';
+    	document.querySelector('.nav').appendChild(mobile);
+
+    	// hasClass
+    	function hasClass(elem, className) {
+        	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+    	}
+
+    	// toggleClass
+    	function toggleClass(elem, className) {
+        	var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+        	if (hasClass(elem, className)) {
+            	while (newClass.indexOf(' ' + className + ' ') >= 0) {
+                	newClass = newClass.replace(' ' + className + ' ', ' ');
+            	}
+            elem.className = newClass.replace(/^\s+|\s+$/g, '');
+        	} else {
+            elem.className += ' ' + className;
+        	}
+    	}
+
+    	// Mobile nav function
+    	var mobileNav = document.querySelector('.nav-mobile');
+    	var toggle = document.querySelector('.nav-list');
+    	mobileNav.onclick = function () {
+        toggleClass(this, 'nav-mobile-open');
+        toggleClass(toggle, 'nav-active');
+    	};
+	})();
+	</script>
     
     
+    <footer>
+    	<address><p>Posted by: Chris Jones <a href="mailto:chris.r.jones.1983@gmail.com">email</a> <a href="http://www.chrisrjones.com">website</a></p>
+        <p><time pubdate datetime="2013-08-17"></time></p>
+    </footer>
   </div>
 </body>
 </html>

@@ -175,6 +175,7 @@ medium yello 229 179 27
         -ms-transition: background 1s;
          -o-transition: background 1s;
             transition: background 1s;
+	opacity:0.8;
 }
 .nav-item:first-child a {
 	border-radius:5px 0 0 5px;
@@ -183,7 +184,8 @@ medium yello 229 179 27
 	border-radius:0 5px 5px 0;
 }
 .nav-item a:hover {
-	background:rgb(127,99,15);
+	background:rgb(64,50,7);
+	opacity:1.0;
 }
 /* Mobile Navigation */
 .nav-mobile {

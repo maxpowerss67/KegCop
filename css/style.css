@@ -17,6 +17,7 @@ medium yello 229 179 27
 
 body {
 	background-image:url('../media/pics/beer_bg08.jpg');
+	font-size: 100%; /* base font-size of 16px */
 }
 a,
 a:hover {
@@ -49,18 +50,50 @@ ol {
 }
 .content-text {
 	margin:0 0 15px;
+	font-size: 1em; /* 16 / 16 */
 }
 
 h1 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
 	color:rgb(64,50,7);
+	font-size: 3em; /* 48 / 16 */
+  	line-height: 1em; /* 48 / 48 */
+  	margin-bottom: .5em; /* 24 / 48 */
 }
 
 h2 {
 	font-family: 'Roboto Slab', serif;
 	color:rgb(64,50,7);
 	text-align:center;
+	font-size: 2.25em; /* 36 / 16 */
+  	line-height: 1.333333333333333em; /* 48 / 36 */
+  	margin-bottom: .6666666666666667em; /* 24 / 36 */
+}
+h3 {
+  font-size: 1.5em; /* 24 / 16 */
+  line-height: 1em; /* 24 / 24 */
+  margin-bottom: 1em; /* 24 / 24 */
+}
+h4 {
+  font-size: 1.3125em; /* 21 / 16 */
+  line-height: 1.142857142857143em; /* 24 / 21 */
+  margin-bottom: 1.142857142857143em; /* 24 / 21 */
+}
+h5 {
+  font-size: 1.125em; /* 18 / 16 */
+  line-height: 1.333333333333333em; /* 24 / 18 */
+  margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+h6 {
+  font-size: 1em; /* 16 / 16 */
+  line-height: 1.5em; /* 24 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+}
+p {
+  font-size: 1em; /* 16 / 16 */
+  line-height: 1.5em; /* 24 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
 }
 
 footer {
@@ -126,6 +159,12 @@ medium yello 229 179 27
 	padding:15px 20px;
 	color:rgb(255,199,30);
 	background:rgb(64,50,7);
+	
+	-webkit-transition: background 1s;
+       -moz-transition: background 1s;
+        -ms-transition: background 1s;
+         -o-transition: background 1s;
+            transition: background 1s;
 }
 .nav-item:first-child a {
 	border-radius:5px 0 0 5px;
@@ -176,6 +215,13 @@ medium yello 229 179 27
 	.nav-item a {
 		background:rgb(60,50,7);
 		padding:10px;
+		
+		-webkit-transition: background 1s;
+       -moz-transition: background 1s;
+        -ms-transition: background 1s;
+         -o-transition: background 1s;
+            transition: background 1s;
+		
 	}
 	.nav-item:first-child a {
 		border-radius:5px 0 0;

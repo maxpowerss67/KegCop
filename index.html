@@ -23,30 +23,78 @@
    	<div class="main">
     
     <!-- Nav menu -->
-    <nav class="nav">
+    <nav class="nav" id="nav">
     	<ul class="nav-list">
-        	<li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Documentation</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
+        	<li class="nav-item"><a href="#content">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#documentation">Documentation</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
        </ul>
     </nav>
     <!-- /Nav -->
     
     <div class="content">
-    <h1>About</h1>
+    <h1 id="about">About</h1>
     	<p class="content-text">
-        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra interdum semper. 
-			Ut blandit adipiscing tempor. Etiam scelerisque, felis dignissim rutrum tempor, neque risus 
-			sagittis mi, ac aliquam est massa eget lectus. Class aptent taciti sociosqu ad litora torquent 
-			per conubia nostra, per inceptos himenaeos. Ut pretium adipiscing ipsum, id iaculis quam mattis 
-			et. Cras mollis eleifend tortor, ut venenatis turpis pulvinar id. In hac habitasse platea 
-			dictumst. Pellentesque feugiat mi sit amet ligula convallis rhoncus fermentum sem aliquam. 
-			Vivamus egestas justo ac nisl facilisis sed aliquam mi ultrices. Suspendisse potenti. Sed 
-			elementum blandit nisl eu tempus.
+        	KegCop is open source iDevice application that monitors a kegerator by having drinkers create user accounts associated with the kegerator.  The admin of the kegerator will login with the <em>root</em> account, and then issue credits to the users of the kegerator. The source code for the application can be found here, <a href="https://github.com/ipatch/KegCop">https://github.com/ipatch/KegCop</a>
     	</p>
-     <h1>Documentation</h1>
-     <h1>Contact</h1>
+        <hr />
+        <div class="anchor-up-link"><a href="#nav">Back to top</a></div>
+     <h1 id="documentation">Documentation</h1>
+     	<p class="content-text">
+        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <p class="content-text">
+        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <p class="content-text">
+        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <hr />
+			<div class="anchor-up-link"><a href="#nav">Back to top</a></div>     
+	<h1 id="contact">Contact</h1>
+     
+     <!-- contact form begin -->
+     
+     <div id="contact-form" class="clearfix">  
+    <h1>Get In Touch!</h1>  
+    <h2>Fill out our super swanky HTML5 contact form below to get in touch with us! Please provide as much information as possible for us to help you with your enquiry :)</h2>  
+    <ul id="errors" class="">  
+        <li id="info">There were some problems with your form submission:</li>  
+    </ul>  
+    <p id="success">Thanks for your message! We will get back to you ASAP!</p>  
+    <form method="post" action="process.php">  
+        <label for="name">Name: <span class="required">*</span></label>  
+        <input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus />  
+          
+        <label for="email">Email Address: <span class="required">*</span></label>  
+        <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required />  
+          
+        <label for="telephone">Telephone: </label>  
+        <input type="tel" id="telephone" name="telephone" value="" />  
+          
+        <label for="enquiry">Enquiry: </label>  
+        <select id="enquiry" name="enquiry">  
+            <option value="general">General</option>  
+            <option value="sales">Sales</option>  
+            <option value="support">Support</option>  
+        </select>  
+          
+        <label for="message">Message: <span class="required">*</span></label>  
+        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"></textarea>  
+          
+        <span id="loading"></span>  
+        <input type="submit" value="Holla!" id="submit-button" />  
+        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>  
+    </form>  
+</div> 
+<div class="anchor-up-link"><a href="#nav">Back to top</a></div>
+	<!-- / contact form end / -->
+     
+     
+     
+     
+     
     </div> <!-- content -->
   </div> <!-- main -->
   <footer>

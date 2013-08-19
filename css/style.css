@@ -179,6 +179,9 @@ medium yello 229 179 27
 }
 .nav-item {
 	float:left;
+	/* the below line won't validate because it is an IE 6 / 7 hack
+	http://www.sitepoint.com/forums/showthread.php?951786-Help-me-for-CSS-validator-Parse-Error
+	*/
 	*display:inline;
 	zoom:1;
 }
@@ -316,7 +319,7 @@ medium yello 229 179 27
 	background-image:url(../img/loading.gif);
 	display:block;
 	position:absolute;
-	rightright:130px;
+	right:130px;
 	bottom:16px;
 	display:none;  
 }  
@@ -441,5 +444,5 @@ input.placeholder-text, textarea.placeholder-text  {
 	}
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 }

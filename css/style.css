@@ -236,13 +236,12 @@ dark brown 64 50 7
 medium yello 229 179 27
 */
 
-
 #contact-form {  
-        background-color:rgb(127,99,15);  
+        background-color:rgb(229,179,27);  
         width:465px;  
         padding:20px;  
         margin: 50px auto;      
-        border: 6px solid rgb(255,199,30);  
+        border: 6px solid rgb(127,99,15);  
         -moz-border-radius:15px;  
         -webkit-border-radius:15px;  
         border-radius:15px;  

@@ -43,6 +43,10 @@ ol {
 	margin:50px 0;
 	text-align:center;
 }
+section {
+	/*border: solid 5px red; */
+}
+
 .content {
 	text-align:left;
 	margin:25px 0;
@@ -137,6 +141,21 @@ a:hover
 a:active
 {
 	/* selected link */
+}
+
+.installSteps {
+	/*border: red solid 5px;*/
+	float:left;
+}
+
+.installVideo {
+	/*border:green solid 5px; */
+	float:right;
+}
+.clear {
+	clear: both;
+}
+video {
 }
 
 

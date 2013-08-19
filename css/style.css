@@ -101,7 +101,6 @@ p {
 }
 
 hr {
-	boder-style:none;
 	border-top: 2px dotted black;
 	height: 1px;
 }
@@ -297,7 +296,7 @@ medium yello 229 179 27
 	color:#FFF;  
     border:none;  
     display:block;  
-    float:rightright;  
+    float:right;  
     margin-bottom:0px;  
     margin-right:6px;  
     background-color:rgb(229,179,27);  
@@ -318,7 +317,7 @@ medium yello 229 179 27
 	display:block;
 	position:absolute;
 	rightright:130px;
-	bottombottom:16px;
+	bottom:16px;
 	display:none;  
 }  
 
@@ -368,7 +367,7 @@ medium yello 229 179 27
 #req-field-desc {
 	font-style:italic;
 }  
-/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */  
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
 input:required, textarea:required {
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
@@ -442,11 +441,5 @@ input.placeholder-text, textarea.placeholder-text  {
 	}
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px {
-	
-	p {
-		font-size:3em;
-	}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px {
 }

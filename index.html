@@ -84,13 +84,14 @@
      <!-- contact form begin -->
      
      <div id="contact-form" class="clearfix">  
-    <h1>Get In Touch!</h1>  
-    <h2>Fill out our super swanky HTML5 contact form below to get in touch with us! Please provide as much information as possible for us to help you with your enquiry :)</h2>  
+    <h1>Did you get the memo?</h1>  
+    <h2>We're now putting cover sheets on the TPS reports.</h2>  
     <ul id="errors" class="">  
         <li id="info">There were some problems with your form submission:</li>  
     </ul>  
     <p id="success">Thanks for your message! We will get back to you ASAP!</p>  
-    <form method="post" action="process.php">  
+    <!-- <form method="post" action="process.php">  --> 
+    <form name="contact" onSubmit="Javascript:hello()">  
         <label for="name">Name: <span class="required">*</span></label>  
         <input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus />  
           
@@ -103,8 +104,6 @@
         <label for="enquiry">Enquiry: </label>  
         <select id="enquiry" name="enquiry">  
             <option value="general">General</option>  
-            <option value="sales">Sales</option>  
-            <option value="support">Support</option>  
         </select>  
           
         <label for="message">Message: <span class="required">*</span></label>  
@@ -165,6 +164,12 @@
         toggleClass(toggle, 'nav-active');
     	};
 	})();
+	</script>
+    
+    <script>
+	function hello() {
+		alert("Ahhh, github pages doesn't support server side scripting just yet, so use the email link at the botttom of the page, t h a n k s.");
+	}
 	</script>
     
     <!-- google analytics -->

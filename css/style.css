@@ -158,6 +158,7 @@ video {
 }
 
 .fb-like {
+	border:red solid 5px;
 	align:right;
 }
 

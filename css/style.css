@@ -157,7 +157,9 @@ a:active
 video {
 }
 
-
+.fb-like {
+	align:right;
+}
 
 /* color scheme colors
 primary / background rgb 222 173 26

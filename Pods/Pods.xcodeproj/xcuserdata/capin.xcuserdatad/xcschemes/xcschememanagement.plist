@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ISO8601DateFormatterValueTransformer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-KegCopTests-Kiwi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,7 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SSKeychain.xcscheme</key>
+		<key>Pods-RKValueTransformers.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SOCKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TransitionKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4640F20233C71C69FE5EEC21</key>
+		<key>2992AD315A3EC64AF618FAD2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68CB17E944DB38A549651D38</key>
+		<key>2BC41412D3CDFC54DF5E0433</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6AB91C14ACC65FEEEA4DF8EB</key>
+		<key>402A439F1DE947E9BDA7134C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE27067A4526528B9E21B902</key>
+		<key>7347BC9B407B634D8C123C06</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EDF4682B1578332AB97AA032</key>
+		<key>865E1CACDF11EF7C0B40D310</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A79350BA1B1A849A48A9D283</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADCBAEC0D6F5D6DAD9E4F731</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D771E5336B255FE50385E2A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6E5DA253142A85E969FC550</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -37,7 +37,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
     //-- Set Notification
     if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
         // iOS 8 Notifications

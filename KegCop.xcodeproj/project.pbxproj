@@ -566,14 +566,14 @@
 		EAEFEE86157B296B00C666D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0620;
 				TargetAttributes = {
 					EA34633D1A0AB3AC00588DC5 = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = EAEFEE8E157B296B00C666D5;
 					};
 					EAEFEE8E157B296B00C666D5 = {
-						DevelopmentTeam = DHF8B8Q5J4;
+						DevelopmentTeam = QTZQM47WL6;
 					};
 				};
 			};
@@ -886,7 +886,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos8.1;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
@@ -930,8 +930,8 @@
 				ALTERNATE_OWNER = "iPhone Developer";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Jones (YF358XUQ53)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: nicolas cruz (37FR65UK9A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: nicolas cruz (37FR65UK9A)";
 				CURRENT_PROJECT_VERSION = 109;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -971,8 +971,8 @@
 				ALTERNATE_OWNER = "iPhone Developer";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Jones (YF358XUQ53)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: nicolas cruz (37FR65UK9A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: nicolas cruz (37FR65UK9A)";
 				CURRENT_PROJECT_VERSION = 109;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
